@@ -1,6 +1,6 @@
 # QuickSort
-Algoritmo de ordenamiento método Quicksort
-                                              Algoritmo de ordenamiento Quicksort
+                                              Algoritmo de ordenamiento método Quicksort
+                                            
 
 El algoritmo de ordenamiento Quicksort(Ordenación Rápida) es más rápido y fácil de ordenar dos listas pequeñas que una lista grande. 
 Se denomina método de ordenación rápida porque, en general, puede ordenar una lista de datos mucho más rápidamente que cualquiera
