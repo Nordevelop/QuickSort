@@ -40,7 +40,7 @@ V[4  9 11 <13> 16 27 18] //<13> centro o pivote
 
 V[4 9 11 13 16 18 27]
 
-El procedimiento de ordenación supone, en primer lugar, una partición del del Vector.
+El procedimiento de ordenación supone, en primer lugar, una partición del del Vector
 
 
 
