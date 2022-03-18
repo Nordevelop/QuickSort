@@ -6,7 +6,7 @@ import java.util.*;
 public class Qarray {
 	    /*
 	     * Clase Qarray del Algoritmo de ordenamoiento 
-	     *    Método   Quicksort
+	     *    MÃ©todo   Quicksort
 	     *    Author Nordevelop
 	     */
 	
@@ -16,15 +16,15 @@ public class Qarray {
 		public Qarray(int max) // constructor
 		{
 		vector = new long[max];
-		nElementos = 0; // no items yet
+		nElementos = 0; // no items 
 		}
 		/*
 		 * Metodos
 		 */
 		public void agregar(long value) // 
 		{
-		vector[nElementos] = value; // insert it
-		nElementos++; // increment size
+		vector[nElementos] = value; 
+		nElementos++; // incremento
 		}
 		
 		public void mostrar(){ //metodo()para mostrar contenido del Array
@@ -44,13 +44,13 @@ public class Qarray {
 				return;
 			else { 
 				long pivot = vector[izda]; //
-		         int partition = partición(dcha, izda, pivot);
+		         int partition = particiÃ³n(dcha, izda, pivot);
 		         recQuickSort(dcha, partition-1); //ordena hacia la derecha 
 		         recQuickSort(partition+1, izda); //ordena hacia la izquierda
 		}
 		} // end recQuickSort()
 	
-		public int partición(int left, int izda, long pivot){
+		public int particiÃ³n(int left, int izda, long pivot){
 			
 			int point_dcha = left-1; 
 			int point_izda = izda;
@@ -64,7 +64,7 @@ public class Qarray {
 		} // end while(true)
 		intercambio(point_dcha, izda);
 		return point_dcha; 
-		} // fin metodo partitición()
+		} // fin metodo partiticiÃ³n()
 		public void intercambio(int subindice1, int subindice2) // intercambio t2 elementos
 		{
 		long temp = vector[subindice1]; 
