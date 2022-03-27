@@ -5,32 +5,32 @@ import java.util.*;
 
 public class Qarray {
 	    /*
-	     * Clase Qarray del Algoritmo de ordenamoiento 
+	     * Clase Qarray del Algoritmo de ordenamiento 
 	     *    Método   Quicksort
 	     *    Author Nordevelop
+	     *Objetos encapsulados con acceso denegado fuera de la clase Qarray
+	     *
 	     */
-	
-		private long[]vector; 
+	       private long[]vector; 
 		private int nElementos; 
 		
-		public Qarray(int max) // constructor
-		{
+		public Qarray(int max){ // constructor
+		
 		vector = new long[max];
 		nElementos = 0; // no items 
 		}
 		/*
 		 * Metodos
 		 */
-		public void agregar(long value) // 
-		{
+		public void agregar(long value){ // 
+		
 		vector[nElementos] = value; 
 		nElementos++; // incremento
 		}
-		
-		public void mostrar(){ //metodo()para mostrar contenido del Array
-			for(int j=0; j<nElementos; j++)	 // for each ,
-				   System.out.print(vector[j] + " ");     
-				   System.out.println(" ");
+		public void mostrar(){ //()para mostrar contenido del Array
+		for(int j=0; j<nElementos; j++)	 // for each sin {} una sola instruccion
+	           System.out.print(vector[j] + " ");     
+		System.out.println(" ");
 	
 		}
 		public void quickSort()
